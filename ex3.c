@@ -41,7 +41,17 @@ void upr(char *str)
 		i++;
 	}
 }
-
+ void lwr(char *str)
+ {
+ 	int i;
+	i = 0;
+	while(str[i] != '\0')
+	{
+		if(str[i] < 90)
+			str[i] = str[i] + 32;
+		i++;
+	}	
+ }
 
 int main()
 {
@@ -53,6 +63,9 @@ int main()
 	printf("string 1 = %s\nstring 2 = %s\n", string1, string2);
 	upr(string1);
 	printf("string 1 maiuscula = %s\n", string1);
+	lwr(string1);
+	printf("string 1 minuscula = %s\n", string1);
+	
 	
 	
 	return 0;
