@@ -53,6 +53,20 @@ void upr(char *str)
 	}	
  }
 
+
+
+void cat(char *str1, char *str2)
+{
+	int i, y;
+	i = len(str1);
+	y = 0;
+	while(str2[y] != '\0')
+	{
+		str1[i] = str2[y];
+		i++;
+		y++;
+	}
+}
 int main()
 {
 	char string1[30], string2[30];
@@ -65,6 +79,8 @@ int main()
 	printf("string 1 maiuscula = %s\n", string1);
 	lwr(string1);
 	printf("string 1 minuscula = %s\n", string1);
+	cat(string1, string2);
+	printf("string 1 + string 2 = %s\n", string1);
 	
 	
 	
