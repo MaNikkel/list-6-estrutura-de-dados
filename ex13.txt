@@ -1,0 +1,3 @@
+exibe os valores de 'mat'
+
+4 5 6

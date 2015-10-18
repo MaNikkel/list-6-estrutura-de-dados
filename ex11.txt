@@ -1,0 +1,3 @@
+após a declaracão, adicionar 
+
+ptri = &i;

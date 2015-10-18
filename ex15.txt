@@ -1,0 +1,1 @@
+exibe os valores de 'mat', mas usando um ponteiro para isso
